@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: "Outfit";
+}
+
+.card {
+  max-width: 596px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5%;
+  margin-inline: auto;
+}
+
+.card__image {
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.card__text {
+  & .card__title {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  & .card__description {
+    text-align: center;
+    font-weight: 500;
+    color: hsl(216, 15%, 48%)
+  }
+}
